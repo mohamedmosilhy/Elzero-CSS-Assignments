@@ -1,0 +1,64 @@
+/* ألتكليف 01 */
+/* div {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.shape-1 {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    outline-width: 5px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.shape-2 {
+    border-width: 5px;
+    border-color: blue green;
+    border-style: solid;
+    outline-width: 5px;
+    outline-color: black;
+    outline-style: solid;
+}
+
+.shape-3 {
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline-width: 5px;
+    outline-color: black;
+    outline-style: solid;
+} */
+
+
+/* التكليف 02 */
+
+
+div {
+    background-color: #EEE;
+    padding: 5px;
+    margin: 5px;
+}
+
+.shape-1 {
+    border-left-width: 5px;
+    border-left-color: #e91e63;
+    border-left-style: solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.hidden-div {
+    visibility: hidden;
+}
+
+.shape-3 {
+    border-left-width: 5px;
+    border-left-color: #009688;
+    border-left-style: solid;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,130 @@
+/* التكليف 01 */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    counter-increment: i;
+    position: relative;
+    box-shadow: -3px -3px 2px 1px #e91e63, 3px 3px 2px 1px #2196f3;
+}
+
+div::before {
+    content: counter(i);
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    top: -16px;
+    right: 38px;
+    position: absolute;
+    font-weight: bold;
+    line-height: 26px;
+} */
+
+
+/* التكليف 02 */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #EEE;
+    margin: 20px;
+    border-radius: 20px 100px 20px 100px;
+    display: inline-block;
+    counter-increment: i;
+    position: relative;
+    box-shadow: 0px 0px 20px 0px #4e4a4a inset;
+} */
+
+
+/* التكليف 03 */
+
+.parent {
+    margin: 50px auto;
+    width: 550px;
+    height: 400px;
+}
+
+.card {
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.line {
+    background-color: #0d7ad4;
+    width: 3px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    background-color: #ccc5c5;
+    border: 2px solid #EEE;
+    margin: 20px;
+    border-radius: 75px;
+    display: inline-block;
+    counter-increment: i;
+    position: absolute;
+    top: 20%;
+    right: 14px;
+    font-weight: bold;
+
+}
+
+.title {
+    padding: 10px;
+    margin: 10px;
+    background-color: #0b8bf4;
+    width: 150px;
+    height: 20px;
+    border-radius: 12px;
+    position: absolute;
+    top: 0%;
+    right: 5px;
+    color: white;
+}
+
+span {
+    position: absolute;
+    top: 39%;
+    left: 53px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::before {
+    content: "or";
+    background-color: #0b8bf4;
+    border-radius: 15px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    top: 88px;
+    right: -14px;
+    position: absolute;
+    font-weight: bold;
+    line-height: 26px;
+}

@@ -1,0 +1,185 @@
+/* 01 */
+/* @media print {
+    div {
+        font-size: 50px;
+    }
+} */
+
+/* 02 */
+/* .parent {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #eee;
+    width: calc((90% / 4));
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.num {
+    font-weight: bold;
+    color: rgb(23, 172, 122)
+}
+
+span {
+    display: block;
+}
+
+/* Small Screens */
+
+/* @media (max-width: 767px) {
+    .num {
+        font-weight: bold;
+        color: black
+    }
+
+    .card {
+        width: 90%;
+    }
+
+} */
+
+/* Medium Screens */
+
+/* @media (min-width: 768px) and (max-width: 992px) {
+    .num {
+        font-weight: bold;
+        color: red
+    }
+
+    .card {
+        width: calc((90% / 2));
+    }
+
+} */
+
+/* Large Screens */
+
+/* @media (min-width: 1200px) {
+    .num {
+        font-weight: bold;
+        color: rgb(23, 172, 122)
+    }
+
+    .card {
+        width: calc((90% / 2));
+    }
+} */
+
+
+
+
+
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #eee;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.num {
+    font-weight: bold;
+    color: rgb(23, 172, 122)
+}
+
+span {
+    display: block;
+}
+
+/* Small Screens */
+
+@media (max-width: 767px) {
+    .num {
+        font-weight: bold;
+        color: black
+    }
+
+    .one {
+        width: 90%;
+    }
+
+    .two {
+        width: 90%;
+    }
+
+    .three {
+        width: 90%;
+    }
+
+    .four {
+        width: 90%;
+    }
+
+}
+
+/* Medium Screens */
+
+@media (min-width: 768px) and (max-width: 1029px) {
+    .num {
+        font-weight: bold;
+        color: red
+    }
+
+    .one {
+        width: 95%;
+    }
+
+    .two {
+        width: 30%;
+    }
+
+    .three {
+        width: 30%;
+    }
+
+    .four {
+        width: 30%;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1029px) {
+    .num {
+        font-weight: bold;
+        color: rgb(23, 172, 122)
+    }
+
+    .one {
+        width: 95%;
+    }
+
+    .two {
+        width: calc(92% / 2);
+    }
+
+    .three {
+        width: calc(92% / 2);
+    }
+
+    .four {
+        width: 95%;
+    }
+
+}

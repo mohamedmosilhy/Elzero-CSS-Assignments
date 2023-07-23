@@ -1,0 +1,90 @@
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.parent div {
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;
+    background-color: #eee;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.arrow {
+    position: relative;
+}
+
+
+.arrow.top::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #eee;
+    top: -20px;
+    left: 45%;
+}
+
+.arrow.right::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #eee;
+    right: -19px;
+    top: 29%;
+}
+
+.arrow.bottom::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #eee;
+    bottom: -20px;
+    left: 45%;
+}
+
+.arrow.left::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #eee;
+    left: -19px;
+    top: 29%;
+}

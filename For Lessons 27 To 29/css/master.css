@@ -1,0 +1,67 @@
+/* .parent {
+    background-color: #eee;
+    width: 800px;
+}
+
+.full {
+    background-color: #b7b1b1;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.third div {
+    background-color: #b7b1b1;
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+}
+
+.half div {
+    background-color: #b7b1b1;
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.quarter div {
+    background-color: #b7b1b1;
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+} */
+
+
+/* التكليف 02 */
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b7b1b1;
+    color: black;
+}
+
+.one {
+    background-color: rgba(134, 135, 138, 0.1);
+}
+
+.two {
+    opacity: 0.1;
+}

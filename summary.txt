@@ -1,0 +1,175 @@
+all i learned in css:
+------------------------------
+    introduction
+    basic syntax
+    elements styling => external style , internal style , inline style(strongest)
+    name conventions and rules => identifier don't start with number , two words seperated with - 
+    background => color(color name, rgb, hexdecimal ), image(url), Repeat
+    background => attachment(scroll, fixed), position(top left), size(cover, contain, width height, )
+    padding => internal space (top right bottom left)
+    margin => external space (top right bottom left), there is negative values, to center an element give it width and make margin auto
+    border => width style color
+    outline => width style color
+------------------------------------------------------------------------
+    display => inline, block, inline-block
+    Block
+    - Take Full Width If No Width
+    - Add Line Break
+    - Respect Padding, Margin, Width, Height
+-------------------------------------------------------------------------
+    Inline
+    - Do Not Repsepct Width, Height
+    - Respect Padding And Margin [ Just Wight + Left ]
+    - Do Not Add Line Break
+    - Allow Elements Before And After It in The Same Line
+--------------------------------------------------------------------------
+    Inline-Block
+    - Allow Elements Before And After It in The Same Line
+    - Respect Padding, Margin, Width, Height
+----------------------------------------------------------------------------
+    display => none
+    visibility => hidden (The space of the element not be deleted)
+    grouping and multiple selectors => .one, .two, .there
+    nesting=> div .one 
+    dimentions => width, min-width, max-width, height, min-height, max-height , width(fit-content)
+    overflow => visible, hidden, scroll, auto
+    text => color, text-shadow(horizontal vertical blur color)
+    alignment => text-align(center, right, left), vertical-align
+    direction=> (ltr, rtl)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+    text-decoration
+    text-transform 
+    text spacing => letter-spacing, text-indent, line-height, word-spacing, white-space, word-break
+    text-overflow
+    inheritance
+    typography font family 
+    css units (px, em(time), rem(root time), percentage, vw(view port width), vmin, vh(viwe port height))
+    font-style, font-varient, font-weight 
+    cursor 
+    float, clear
+    css claculations
+    opacity 
+    position(static, relative, absolute, fixed, sticky)
+
+    The types of positioning in CSS are-
+
+    1)static: this is the default value.We cannot use top,bottom,left and right and
+    z-index value with static position.
+
+    2)relative: the element is positioned relative to its normal position.We can 
+    move relative element using top,bottom,left and right.
+
+    3)absolute: the element is positioned absolutely to its first positioned parent.
+    We can moved element and provide z-index. For example we position parent relative
+    and move child using absolute property.
+
+    4)fixed: the element is positioned related to the browser window.
+
+    5)sticky: the element is positioned based on the user's scroll position.After
+    element goes to scroll position it act as fixed and we give it using top,left,
+    right,bottom.
+------------------------------------------------------------------------------------------------------------------------------    
+    z-index
+    list styling => list-style-type, list-style-position, list-style
+    table styling
+    
+    Pseudo Classes => :hover, checked, empty, visited, focus 
+    Pseudo Elements => ::First Letter, First Line, Selection, before, after, content(attr(),counter()), 
+    Vendor Prefixes
+    Border Radius
+    Box Shadows And Example
+    The Box Model And Box Sizing(content-box, border-box)
+-------------------------------------------------------------------------------------------------------------------------------
+    transition => duration, delay, property, timing function
+    important declaration
+    the margin collapse => only the vertical margin collapse, bigger margin wins, collapsing happenes when there is no element between them, nesting does't prevent collapsing
+    css variables => local, global
+    flex box for parent => display, flex-direction, flex-wrap, flex-flow(flex-direction, flex-wrap), Justify Content, Align Items, Align Content, 
+    flex box for child => Flex Basis, Flex Shorthand, Grow, Shrink, Order, Align Self, Games, Task
+---------------------------------------------------------------------------------------------------------------------------------
+    filters => blur, grayscale, invert
+    gradients => liner-gradient(direction, start, end)
+    caret-color, pointer-events
+
+    grid parent => display: grid | inline-grid ,grid-template-columns(number of columns) [ox, %, auto, fraction, mix, repeat()]  
+    grid-template-rows(number of rows) [ox, %, auto, fraction, mix, repeat()], gap(row-gap, column-gap) 
+    Justify-content, align-content
+    grid-template-areas, grid-area, minmax(), autofil
+
+    grid child => grid-column(start, end) , grid-row(start, end) , grid-area(grid-row-start, grid-column-start, grid-row-end, grid-column-end)
+
+    auto-fit, ch dimention
+    -----------------------------------------------------------------------------------------------------------------------------------------
+    transform: scalex, scaley, rotate , translate, skewx, skewy, matrix, origin
+    transform 3d:  Rotate, Translate, Perspective, Perspective Origin, Backface Visibility And Flip Product
+    ---------------------------------------------------------------------
+    CSS Selectors
+  - *
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child
+  - .class-one.class-two
+  - .class-name div, .class-name p
+  - Element.class-name => p.class-name
+  - .parent > .child => Direct Child
+  - Element + Other Element => [div + p]
+  - Element ~ Other Elements => [p ~ div]
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A Atring
+  - [Attribute^=Value] => Start With A String
+  - :first-child
+  - :last-child
+  - :first-of-type
+  - :last-of-type
+  - :only-child
+  - :not(Selectors)
+  - :nth-child(n)
+  - :nth-last-child(n)
+  - :nth-of-type(n)
+  - :nth-last-of-type(n)
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+  ---------------------------------------------------------------------------------
+    Animation – KeyFrames, Name, Duration
+
+    Animation – Iteration Count, Timing Function, Spinner Loading
+
+    Animation – Direction, Fill Mode, Play State, Delay
+
+    Up And Down Loading Animation Training
+
+    CSS Selectors Reference Part 1
+
+    CSS Selectors Reference Part 2
+
+    CSS Selectors Reference Part 3
+
+    CSS Selectors Reference Part 4
+
+    CSS Selectors Reference Part 5
+
+    Media Queries And Responsive Designs Intro
+
+    Media Queries And Responsive Designs Standards
+
+    Media Queries And Responsive Designs Practice
+
+    Create Your Framework
+
+    CSS Global Values
+
+    The End And How To Master CSS
+
+    

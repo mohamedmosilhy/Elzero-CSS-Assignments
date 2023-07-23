@@ -1,0 +1,158 @@
+:root {
+    --assign-1-maincolor: orangered;
+    --assign-2-maincolor: #019689;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* h1 {
+    width: 150px;
+    margin: 50px auto;
+    color: white;
+    padding: 15px;
+    border: 10px solid var(--assign-1-maincolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    width: 120%;
+    height: 120%;
+    padding: 0px;
+    background-color: var(--assign-1-maincolor);
+    position: absolute;
+    z-index: -1;
+    transform: skew(-20deg, -20deg);
+}
+
+h1::before {
+    content: "";
+    width: 120%;
+    height: 120%;
+    padding: 0px;
+    background-color: var(--assign-1-maincolor);
+    position: absolute;
+    z-index: -1;
+    transform: skew(20deg, 20deg);
+} */
+
+
+/* h1 {
+    width: 150px;
+    margin: 50px auto;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--assign-2-maincolor);
+}
+
+
+h1::before {
+    content: "";
+    width: 5px;
+    background-color: white;
+    height: 100%;
+    transform: skew(10deg);
+    position: absolute;
+    left: 24px;
+}
+
+
+h1::after {
+    content: "";
+    width: 14px;
+    background-color: white;
+    height: 100%;
+    transform: skew(10deg);
+    position: absolute;
+    left: -5px;
+} */
+
+/*     matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+/* .class {
+
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    transform: scaleX(3) scaleY(3) skewX(0) skewY(0.2679) translateX(20px) translateY(100px);
+
+} */
+
+/* div {
+    width: 288.842725px;
+    height: 300px;
+    background-color: #607c8a;
+    position: relative;
+}
+
+div::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -104px;
+    left: 40px;
+}
+
+div::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+} */
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #fa3664;
+    position: relative;
+    perspective: 600px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:hover {
+    transform: rotateY(-180deg);
+
+    /* transform: rotateX(-180deg); */
+}
+
+div::before {
+    content: "BACK";
+    width: 200px;
+    height: 200px;
+    background-color: #50a1fe;
+    position: absolute;
+    backface-visibility: hidden;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+
+    /* transform: rotateX(180deg); */
+}

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 01 */
+/* 
+.grid {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 50px auto;
+    gap: 20px;
+}
+
+.grid div {
+    background-color: #607d8b;
+} */
+
+/* 02 */
+
+/* .layout {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas: "header header header header header header header header header header" "section section section section section section section section aside aside" "footer footer footer footer footer footer footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #03a9f4;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #607d8b;
+}
+
+section {
+    grid-area: section;
+    background-color: #ff5722;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #009688;
+} */
+
+
+/* 03 */
+/* 
+.grid {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+}
+
+.grid div {
+    background-color: #403f3f;
+} */
+
+
+/* 04 */
+/* .grid {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(6, auto);
+}
+
+.grid div {
+    background-color: #2196f3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.eight {
+    order: 1;
+    grid-column: span 8;
+}
+
+.one {
+    order: 8;
+    grid-column: span 8;
+}
+
+.eight {
+    order: 1;
+}
+
+.two {
+    order: 2;
+    grid-column: span 5;
+}
+
+.three {
+    order: 3;
+    grid-column: span 3;
+}
+
+.four {
+    order: 4;
+    grid-column: span 3;
+}
+
+.five {
+    order: 7;
+    grid-area: 3/ 4/ 6 /9;
+}
+
+.six {
+    order: 5;
+    grid-column: span 3;
+}
+
+.seven {
+    order: 6;
+    grid-column: span 3;
+} */
+
+/* 05 */
+
+/* .grid {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    align-content: space-between;
+}
+
+.grid div {
+    background-color: #e91e63;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+} */
+
+
+/* 06 */
+
+.grid {
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 10px;
+    width: 800px;
+    height: 1000px;
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+}
+
+
+.grid div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 3px solid orangered;
+    padding: 5px;
+}
+
+
+.one {
+    background-color: white;
+    grid-row: span 3;
+    grid-column: span 4;
+}
+
+.two {
+    background-color: white;
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.three {
+    background-color: black;
+    color: white;
+    grid-row: span 7;
+    grid-column: span 2;
+}
+
+.four {
+    background-color: white;
+    grid-row: span 4;
+    grid-column: span 2;
+}
+
+.five {
+    background-color: black;
+    color: white;
+    grid-row: span 2;
+    grid-column: span 4;
+}
+
+.six {
+    background-color: white;
+    grid-row: span 2;
+    grid-column: span 4;
+}
+
+.seven {
+    background-color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.nine {
+    background-color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.eight {
+    background-color: black;
+    color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.ten {
+    background-color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+
+/* 3 4 1 */

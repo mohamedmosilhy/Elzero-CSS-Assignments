@@ -1,0 +1,160 @@
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+/* 
+div {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #ea1b5f;
+    border-radius: 50%;
+    border-top-color: transparent;
+    position: relative;
+    animation-name: rotate-circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div::after {
+    content: "";
+    width: 89px;
+    height: 89px;
+    border: 10px solid #2599eb;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: -29px;
+    left: -29px;
+    animation-name: rotate-circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+div::before {
+    content: "";
+    width: 128px;
+    height: 126px;
+    border: 10px solid #fda300;
+    border-radius: 50%;
+    border-right-color: transparent;
+    position: absolute;
+    top: -49px;
+    left: -49px;
+    animation-name: rotate-circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div:hover,
+div:hover::after,
+div:hover::before {
+    animation-play-state: paused;
+} */
+
+
+
+
+/* 02 */
+/* div {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #1e98fa;
+    border-radius: 50%;
+    border-top-color: transparent;
+    position: relative;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div::after {
+    content: "";
+    width: 89px;
+    height: 89px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top-color: transparent;
+    position: absolute;
+    top: -29px;
+    left: -29px;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+div::before {
+    content: "";
+    width: 128px;
+    height: 126px;
+    border: 10px solid #fda300;
+    border-radius: 50%;
+    border-top-color: transparent;
+    position: absolute;
+    top: -49px;
+    left: -49px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div:hover,
+div:hover::after,
+div:hover::before {
+    animation-name: rotate-circle;
+} */
+
+
+/* span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eee;
+    border: 5px solid black;
+    border-top-color: transparent;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+} */
+/* 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */

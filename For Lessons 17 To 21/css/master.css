@@ -1,0 +1,63 @@
+/*
+selector{
+    property:value;
+} 
+*/
+
+/* التكليف 01 */
+/* div {
+    text-shadow: 0.5px 0.5px 0px #eb4339, 1px 1px 0px #338ee2, 1.5px 1.5px 0px #9e2db2;
+} */
+
+
+/* التكليف 02 */
+/* .one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.three {
+    text-transform: lowercase;
+    text-align: center;
+} */
+
+
+/* التكليف 03 */
+/* 
+div {
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.two,
+.three {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.three {
+    text-overflow: ellipsis;
+} */
+
+
+/* التكليف 04 */
+
+a {
+    padding: 10px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #009688;
+    border-bottom: 5px solid #00514a;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}

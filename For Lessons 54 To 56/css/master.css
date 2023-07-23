@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 01 */
+/* div {
+    width: 600px;
+    background-color: #eee;
+    font-weight: bold;
+    margin: 50px auto;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-left-color: #f44336;
+    border-right-color: #673ab7;
+}
+
+div::first-letter {
+    color: #f44336;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, #f44336 0%, #f44336 20%, #2196f3 20%, #2196f3 40%, #4caf50 40%, #4caf50 60%, #e91e63 60%, #e91e63 80%, #673ab7 80%);
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, #f44336 0%, #f44336 20%, #2196f3 20%, #2196f3 40%, #4caf50 40%, #4caf50 60%, #e91e63 60%, #e91e63 80%, #673ab7 80%);
+} */
+
+
+/* 02 */
+
+
+.parent {
+    margin: 50px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    padding: 20px;
+    caret-color: red;
+}
+
+.one,
+.two,
+.three {
+    position: relative;
+}
+
+div input {
+    background-color: #9f9a9a;
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 20px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.one::after,
+.two::after,
+.three::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 92px;
+    width: 80%;
+    height: 5px;
+    background-image: linear-gradient(to right, #f44336 0%, #f44336 50%, #2196f3 50%);
+}

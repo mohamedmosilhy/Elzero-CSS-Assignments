@@ -1,0 +1,53 @@
+/*  التكليف 01*/
+/* div {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.two {
+    border: 2px solid #6bc2b9;
+}
+
+.one {
+    border: 2px solid #ff693aed;
+}
+
+p {
+    border: inherit;
+    background-color: #dddddd;
+    margin: 10px;
+    padding: 10px;
+} */
+
+
+
+/* 
+.two {
+    font-family: 'Cairo', sans-serif;
+}
+
+.one {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.three {
+    font-family: 'Jomhuria', cursive;
+} */
+
+/* التكليف 03 */
+html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+}

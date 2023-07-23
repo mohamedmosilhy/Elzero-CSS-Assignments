@@ -1,0 +1,113 @@
+/* التكليف 01 */
+/* div {
+    width: 300px;
+    height: 60px;
+    background-color: #EEE;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+div:empty {
+    background-color: red;
+} */
+
+
+/* التكليف 02 */
+
+/* div {
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    font-weight: bold;
+    background-color: #EEE;
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+}
+
+div::first-letter {
+    visibility: hidden;
+}
+
+div::before {
+    content: "1";
+    font-weight: bold;
+    background-color: red;
+    width: 23px;
+    height: 31px;
+    position: absolute;
+    left: -9px;
+    top: 4px;
+    text-align: center;
+    color: white;
+} */
+
+/* التكليف 03 */
+
+/* p {
+    width: 400px;
+    height: 60px;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    position: relative;
+    border-color: #eee #eee #eee #e91e63;
+    border-width: 3px;
+    border-style: solid;
+}
+
+p::before {
+    content: attr(data-person);
+    position: absolute;
+    top: 22%;
+    left: -75px;
+    background-color: #eee;
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+}
+
+p::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 31%;
+    left: -22px;
+    border-color: transparent #e91e63 transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+} */
+
+/* التكليف 04 */
+
+p {
+    counter-increment: paragraph;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    background-color: #EEE;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    line-height: 46px;
+    border-right: 3px solid red;
+    position: relative;
+}
+
+p::before {
+    position: absolute;
+    content: counter(paragraph);
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 60px;
+}
